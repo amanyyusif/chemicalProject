@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os 
 
-
+#read data 
 my_data = pd.read_csv('C:/Users/HP/chemicalProject/cscpopendata.csv')
 my_data.info()
 
